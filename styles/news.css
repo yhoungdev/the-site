@@ -1,0 +1,19 @@
+.wide-news {
+    background-image: url('https://fdn.gsmarena.com/imgroot/static/headers/news-hlr.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 42vh;
+    width: 100%;
+    max-width: 100%;
+    padding: 2em;
+    position: relative;
+    
+
+    
+}
+
+.news-search{
+    position: absolute;
+    bottom: 2em;
+  
+}

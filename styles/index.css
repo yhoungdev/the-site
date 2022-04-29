@@ -1,0 +1,51 @@
+
+@import url('../dist/output.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;300;500&display=swap');
+/* //for mobile device  */
+
+
+footer {
+  padding: 4em 0;
+}
+
+.footer ul li:nth-child(1) {
+  font-weight: 600;
+  font-size: 1.4em;
+  color: rgb(26, 26, 26);
+  font-family: 'Inter', sans-serif;
+  
+}
+
+
+.footer ul li {
+  list-style: none;
+  margin-bottom: 1em;
+  font-family: 'poppins', sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 1em;
+  }
+
+  .card {
+      margin: 1em 0 !important;
+  }
+
+  /* footer  */
+  .footer {
+   flex-wrap: wrap;
+   gap:2em;
+   flex-direction: column;
+  }
+
+ 
+
+ 
+}
+
+
+
+
+
+

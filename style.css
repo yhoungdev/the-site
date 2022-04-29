@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.poco {
+  background-image: url('https://fdn.gsmarena.com/imgroot/reviews/22/poco-f4-gt/rev/-728x314/gsmarena_002.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bars {
+  color: wheat;
+  display: none;
+}
+
+.sm-pad h4 {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.sm-break {
+  display: flex;
+  gap: 1em;
+}
+
+
+.hold-ads {
+  display: flex;
+}
+
+.card {
+  background-color: rgb(242, 242, 242);
+  padding: 1em;
+
+  height: 40vh;
+  color: #fff;
+  width: 23vw;
+  position: relative;
+  
+}
+
+
+/* card innter texts */
+.card h4 {
+  font-weight: bold;
+  font-size: 1.6em;
+  position: absolute;
+  bottom: 1em;
+  background-color: rgba(0, 0, 0, 0.19);
+}
+
+/* //for the message to be inline */
+.message {
+  display: inline-flex;
+}
+
+.message .fa-solid {
+  margin-right: 0.5em;
+}
+
+.card img {
+  width: 3em;
+  border-radius: 50%;
+  height: 3em;
+}
+
+.card-title {
+  font: bold 1.2em sans-serif;
+}
+
+.flow {
+  display: flex;
+  
+}
+
+
+.path {
+  gap: 1em; 
+
+}
+
+.path .wide {
+  flex: 2;
+  padding: 1em;
+  
+}
+
+.path .small {
+  flex: 1;
+  padding: 1em;
+}
+
+/* mobile device */
+@media screen and (max-width: 800px){
+  .bars {
+    float: right;
+    position: absolute;
+    right: 1.1em;
+    
+  }
+  /* show bars */
+
+  .bars {
+    display: block;
+  }
+
+.wide {
+  flex-direction: column;
+}
+
+.wide p {
+  padding: 1em 0;
+}
+
+  .container {
+  
+    padding: 0 1em;
+  }
+/* 
+  //break when on mobile screen */
+
+  .sm-break {
+    flex-direction: column;
+  }
+
+
+  .sample-card {
+   
+  }
+
+  .sample-card img {
+    width: 100vw;
+    height: 60%;
+  }
+
+
+
+  /* hide items on nav bar when on mobile */
+  .icons, .search  {
+    display: none !important;
+  }
+
+
+  /* //break the rules */
+  .path {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+
+
+  /* give header padding */
+  .sm-pad {
+    padding: 1.5em 0;
+  }
+  
+
+}
+
+
+/* for alrge screen */
+
+@media screen and (min-width: 1000px ) {
+    .container {
+      padding: 0 7em;
+    }
+
+   .sm-pad {
+    margin:0 2em;
+   }
+}
