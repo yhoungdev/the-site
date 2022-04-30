@@ -84,6 +84,12 @@ body {
 .path {
   gap: 1em; 
 
+
+
+}
+
+.wide {
+  background-color: rgb(234, 234, 234);
 }
 
 .path .wide {
