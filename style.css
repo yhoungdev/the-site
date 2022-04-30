@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;300;500&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -8,6 +9,11 @@
   background-image: url('https://fdn.gsmarena.com/imgroot/reviews/22/poco-f4-gt/rev/-728x314/gsmarena_002.jpg');
   background-size: cover;
   background-position: center;
+}
+
+body {
+  font-family: inter;
+  background-color: rgb(245, 245, 245);
 }
 
 .bars {
@@ -93,12 +99,7 @@
 
 /* mobile device */
 @media screen and (max-width: 800px){
-  .bars {
-    float: right;
-    position: absolute;
-    right: 1.1em;
-    
-  }
+
   /* show bars */
 
   .bars {
@@ -136,8 +137,8 @@
 
 
 
-  /* hide items on nav bar when on mobile */
-  .icons, .search  {
+  /* hide items on nav bar when o n mobile */
+  .icons-sm, .search  {
     display: none !important;
   }
 

@@ -14,8 +14,9 @@ template.innerHTML = `
     <header class="header ">
         <div class='inner bg-zinc-600 py-3'>
         <div class="container mx-auto flex justify-between " >
-        <div class='logo'>
-            <img src="../images/logo.png" alt="logo">
+        <div class='logo flex'>
+         <h2 class='bars'><i class="fa-solid fa-bars"></i><h2/>
+            <img src="../images/logo.png" alt="logo" class='mx-5'>
         </div>
         
         <div class='search'>
@@ -27,10 +28,13 @@ template.innerHTML = `
         <div class='icons'>
  
             <ul class='text-white'>
-            <i class="fa-brands fa-facebook mx-5"></i>
-            <i class="fa-brands fa-twitter mx-5"></i>
-            <i class="fa-brands fa-instagram mx-5"></i>
-            <i class="fa-brands fa-youtube mx-5"></i>
+            <i class="fa-brands fa-facebook mx-5 icons-sm"></i>
+            <i class="fa-brands fa-twitter mx-5 icons-sm"></i>
+            
+            <i class="fa-brands fa-instagram mx-5 icons-sm"></i>
+            <i class="fa-brands fa-youtube mx-5 icons-sm"></i>
+            <i class="fa-solid fa-arrow-right-to-bracket mx-5"></i>
+            <i class="fa-solid fa-user-plus"></i>
 
             </ul>
           
@@ -38,7 +42,7 @@ template.innerHTML = `
           
         </div>
 
-        <h2 class='bars'><i class="fa-solid fa-bars"></i><h2/>
+       
         
         
 
@@ -51,11 +55,14 @@ template.innerHTML = `
        <nav >
            <ul class='flex justify-between'>
                <li><a href="/">Home</a></li>
-               <li><a href="#">Store</a></li>
-               <li><a href="../pages/news.html">News</a></li>
-               <li><a href="#">Review</a></li>
-               <li><a href="#">Latest</a></li>
-               <li><a href="#">About</a></li>
+               <li><a href="#">News</a></li>
+               <li><a href="../pages/reviews.html">Reviews</a></li>
+               <li><a href="#">Videos</a></li>
+               <li class='nav-sm'><a href="#">Latest</a></li>
+               <li class='nav-sm'><a href="#">About</a></li>
+               <li>
+                 <button class='bg-red-600 px-3 py-1 rounded-md text-white'> <i class="fa-solid fa-magnifying-glass"></i> </button>
+               </li>
 
            </ul>
 
