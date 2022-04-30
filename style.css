@@ -10,6 +10,10 @@
   background-position: center;
 }
 
+body {
+  background-color: rgb(245, 245, 245);
+}
+
 .bars {
   color: wheat;
   display: none;
