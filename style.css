@@ -93,12 +93,7 @@
 
 /* mobile device */
 @media screen and (max-width: 800px){
-  .bars {
-    float: right;
-    position: absolute;
-    right: 1.1em;
-    
-  }
+
   /* show bars */
 
   .bars {
@@ -136,8 +131,8 @@
 
 
 
-  /* hide items on nav bar when on mobile */
-  .icons, .search  {
+  /* hide items on nav bar when o n mobile */
+  .icons-sm, .search  {
     display: none !important;
   }
 

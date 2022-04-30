@@ -8,9 +8,15 @@ footer {
   padding: 4em 0;
 }
 
+.nav-sm {
+  display: none;
+}
+
+
+
 .footer ul li:nth-child(1) {
   font-weight: 600;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: rgb(26, 26, 26);
   font-family: 'Inter', sans-serif;
   

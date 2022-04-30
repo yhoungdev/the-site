@@ -1,0 +1,32 @@
+.review-screen {
+    background-image: url('https://fdn.gsmarena.com/imgroot/reviews/22/iqoo-9/-1220x526/gsmarena_002.jpg');   
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 42vh;
+    width: 100%;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding: 1.5em;
+
+}
+
+.review-content {
+    background-color: rgba(0, 0, 0, 0.38);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 1em;
+    
+    
+}
+
+.review-content h1 {
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+
+
