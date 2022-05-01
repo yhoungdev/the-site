@@ -1,0 +1,21 @@
+.past-select {
+    width: 50%;
+    margin: 2em 0;
+    background-color: rgb(220, 217, 217);
+}
+
+.past-btn {
+    padding: 1em 4em;
+    border-radius: 0.2em;
+}
+/* //for mobile  */
+
+@media screen and (max-width: 720px) {
+    .past-select {
+        width: 100%;
+    }
+
+    .past-btn {
+        width: 100%;
+    }
+}

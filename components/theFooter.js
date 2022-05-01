@@ -31,7 +31,7 @@ template.innerHTML = `
 
  </footer>
 
- <footer class='mobile-footer' >
+ <footer class='mobile-footer my-5' >
 
  <div class ='container'>
   <center>
@@ -48,7 +48,7 @@ template.innerHTML = `
  </div>
 
 
- <div class='the-footer bg-black my-3 text-white py-5'>
+ <div class='the-footer bg-black mt-3 text-white py-5'>
 
     <div class='container mx-auto py-3'>
       <ul class='flex justify-between my-3'>
