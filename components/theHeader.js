@@ -55,7 +55,7 @@ template.innerHTML = `
        <nav >
            <ul class='flex justify-between'>
                <li><a href="/">Home</a></li>
-               <li><a href="#">News</a></li>
+               <li><a href="/pages/news.html">News</a></li>
                <li><a href="../pages/reviews.html">Reviews</a></li>
                <li><a href="#">Videos</a></li>
                <li class='nav-sm'><a href="#">Latest</a></li>
