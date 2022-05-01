@@ -48,7 +48,7 @@ template.innerHTML = `
  </div>
 
 
- <div class='the-footer bg-black mt-3 text-white py-5'>
+ <div class='the-footer bg-black mt-3 text-white py-5 ' style='position:absolute; right:0; left:0'>
 
     <div class='container mx-auto py-3'>
       <ul class='flex justify-between my-3'>

@@ -10,6 +10,13 @@
 }
 /* //for mobile  */
 
+
+
+.badge {
+    margin: 1em 0;
+    padding: 0.2em 2em;
+    
+}
 @media screen and (max-width: 720px) {
     .past-select {
         width: 100%;
