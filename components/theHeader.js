@@ -12,7 +12,7 @@ template.innerHTML = `
     <head>
     
     <header class="header ">
-        <div class='inner bg-zinc-600 py-3'>
+        <div class='inner  py-3'>
         <div class="container mx-auto flex justify-between " >
         <div class='logo flex'>
          <h2 class='bars'><i class="fa-solid fa-bars"></i><h2/>

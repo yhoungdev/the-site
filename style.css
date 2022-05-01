@@ -80,7 +80,9 @@ body {
   
 }
 
-
+.inner {
+  background-color: #616161;
+}
 .path {
   gap: 1em; 
 

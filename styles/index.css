@@ -8,6 +8,7 @@ footer {
   padding: 4em 0;
 }
 
+
 .nav-sm {
   display: none;
 }
@@ -45,6 +46,10 @@ footer {
    flex-direction: column;
   }
 
+  .desktop-fotter {
+    display: none;
+  }
+  
  
 
  
@@ -53,5 +58,9 @@ footer {
 
 
 
-
+@media screen and (min-width: 700px) {
+  .mobile-footer {
+    display: none;
+  }
+}
 

@@ -10,51 +10,67 @@ template.innerHTML = `
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
   </style>
- <footer class='bg-slate-300 my-5'>
-    <div class='container flex justify-between mx-auto footer'>
+ <footer class='bg-slate-100 my-5 desktop-fotter'>
+   
+  <div class='container mx-auto '>
+    <ul class='flex justify-between text-slate-500'>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+    </ul>
 
-      <div class='links'>
-        <ul>
-         <li><a href='#'>About</a></li>
-          <li><a href='#'>Contact</a></li>
-          <li><a href='#'>Terms</a></li>
-          <li><a href='#'>Privacy</a></li>
 
-        </ul>
-      </div>
+  </div>
 
-      <div class='links'>
-      <ul>
-       <li><a href='#'>About</a></li>
-        <li><a href='#'>Contact</a></li>
-        <li><a href='#'>Terms</a></li>
-        <li><a href='#'>Privacy</a></li>
+ </footer>
+
+ <footer class='mobile-footer' >
+
+ <div class ='container'>
+  <center>
+
+  <ul class='flex gap-10 text-slate-500'>
+  <li>Home</li>
+  <li>Home</li>
+  <li>Home</li>
+  <li>Home</li>
+ 
+   </ul>
+
+  </center>
+ </div>
+
+
+ <div class='the-footer bg-black my-3 text-white py-5'>
+
+    <div class='container mx-auto py-3'>
+      <ul class='flex justify-between my-3'>
+        <li><i class="fa-brands fa-facebook text-2xl"></i></li>
+        <li><i class="fa-brands fa-linkedin  text-2xl"></i></li>
+        <li><i class="fa-brands fa-twitter  text-2xl"></i></li>
+        <li><i class="fa-brands fa-instagram  text-2xl"></i></li>
+        <li><i class="fa-brands fa-youtube  text-2xl"></i></li>
 
       </ul>
+
+      <center><small class='text-center'>2022 The Site</small></center>
+      <center>     <ul class='flex gap-5 text-center py-3'>
+      <li>Home |</li>
+      <li>Home | </li>
+      <li>Home |</li>
+      <li>Home</li>
+    </ul></center>
+   
     </div>
 
-
-      <div class='links'>
-        <ul>
-         <li><a href='#'>About</a></li>
-          <li><a href='#'>Contact</a></li>
-          <li><a href='#'>Terms</a></li>
-          <li><a href='#'>Privacy</a></li>
-          
-        </ul>
-      </div>
-
-      <div class='links'>
-        <ul>
-         <li><a href='#'>About</a></li>
-          <li><a href='#'>Contact</a></li>
-          <li><a href='#'>Terms</a></li>
-          <li><a href='#'>Privacy</a></li>
-          
-        </ul>
-      </div>
-
-    </div>
+ </div>
 
  </footer>
 
