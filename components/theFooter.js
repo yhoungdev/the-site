@@ -36,7 +36,7 @@ template.innerHTML = `
  <div class ='container'>
   <center>
 
-  <ul class='flex gap-10 text-slate-500'>
+  <ul class='flex gap-10 text-slate-500 my-5 text-center'>
   <li>Home</li>
   <li>Home</li>
   <li>Home</li>

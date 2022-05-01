@@ -17,6 +17,16 @@
     padding: 0.2em 2em;
     
 }
+
+.contents {
+    background-color: rgb(221, 221, 221);
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.more-head {
+    color: blue;
+}
 @media screen and (max-width: 720px) {
     .past-select {
         width: 100%;
