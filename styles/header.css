@@ -1,0 +1,30 @@
+.sidebar {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    transition: 1s ease-in;
+    width: 0%;
+    overflow: hidden;
+}
+
+.sidebar .child {
+    position: absolute;
+}
+
+.sidebar .child ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+.sidebar .child ul li {
+    padding: 0.5em;
+    border-bottom: 1px solid white;
+    margin: 2em 0;
+}
+

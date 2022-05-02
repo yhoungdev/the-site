@@ -8,7 +8,11 @@ template.innerHTML = `
     <style>
         @import '../style.css';
     </style>
+    <style>
+        @import '../styles/header.css';
+    </style>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+   
     <head>
     
     <header class="header ">
@@ -16,7 +20,7 @@ template.innerHTML = `
         <div class="container mx-auto flex justify-between " >
         <div class='logo flex'>
          <h2 class='bars'><i class="fa-solid fa-bars"></i><h2/>
-            <img src="../images/logo.png" alt="logo" class='mx-5'>
+            <img src="https://myschool.ng/img/myschool_logo.png" alt="logo" class='mx-5'>
         </div>
         
         <div class='search'>
@@ -72,6 +76,26 @@ template.innerHTML = `
        </div>
     </header>
 
+    <div class='sidebar'>
+      
+        <div class='child'>
+             
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Past Questions</a></li>
+        <li><a href="#">Latest</a></li>
+        <li><a href="#">About</a></li>
+            
+    </ul>
+
+        </div>
+
+    </div>
+
+    </div>
+
 `;
 
 class Header extends HTMLElement {
@@ -82,13 +106,17 @@ class Header extends HTMLElement {
     var header = this.shadowRoot.querySelector("header");
  
   }
+
+  
   
   
 }
 
 window.customElements.define('the-header', Header);
 
+const openSide = () => {
+    alert(0)
+}
 
 
-//footer 
 

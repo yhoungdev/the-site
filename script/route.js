@@ -17,6 +17,6 @@ let card = document.querySelectorAll('.card')
                 window.location.href = '../pages/in_past.html'
             }
         })
-        console.log(contents)
+       
 
      
