@@ -9,4 +9,14 @@ let card = document.querySelectorAll('.card')
     });
 
 
-  
+
+    //route to all each questions
+    let contents = document.querySelectorAll('.past-que')
+        contents.forEach( past => {
+            past.onclick = e => {
+                window.location.href = '../pages/in_past.html'
+            }
+        })
+        console.log(contents)
+
+     
