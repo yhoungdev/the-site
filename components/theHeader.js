@@ -1,5 +1,7 @@
 
 var template = document.createElement('template');
+const sidebar = document.querySelector('.child');
+console.log(sidebar);
 template.innerHTML = `
     <style>
     @import '../styles/index.css';
@@ -11,13 +13,27 @@ template.innerHTML = `
     <style>
         @import '../styles/header.css';
     </style>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
-   
+    
     <head>
     
+
+
+    
     <header class="header ">
+        
         <div class='inner  py-3'>
+        <div class='search-bar'>
+            <input type='text' placeholder='Search'/>
+            <button class='search-btn bg-red-600 p-2 rounded-md text-white' > Search <i class="fas fa-search"></i></button>
+        </div>
+
+        
+
+
         <div class="container mx-auto flex justify-between " >
+            
         <div class='logo flex'>
          <h2 class='bars'><i class="fa-solid fa-bars"></i><h2/>
             <img src="https://myschool.ng/img/myschool_logo.png" alt="logo" class='mx-5'>
@@ -28,7 +44,7 @@ template.innerHTML = `
             class='bg-grey border-2 black outline-none py-2 px-4 rounded-md'
             >
         </div>
-
+        
         <div class='icons'>
  
             <ul class='text-white'>
@@ -65,7 +81,7 @@ template.innerHTML = `
                <li class='nav-sm'><a href="#">Latest</a></li>
                <li class='nav-sm'><a href="#">About</a></li>
                <li>
-                 <button class='bg-red-600 px-3 py-1 rounded-md text-white'> <i class="fa-solid fa-magnifying-glass"></i> </button>
+                 <!--<button class='bg-red-600 px-3 py-1 rounded-md text-white'> <i class="fa-solid fa-magnifying-glass"></i> </button>
                </li>
 
            </ul>
@@ -95,10 +111,13 @@ template.innerHTML = `
     </div>
 
     </div>
+    
 
 `;
 
 class Header extends HTMLElement {
+
+   
   
   connectedCallback() {
     this.attachShadow({mode: 'open'});
@@ -112,11 +131,10 @@ class Header extends HTMLElement {
   
 }
 
+
+
 window.customElements.define('the-header', Header);
 
-const openSide = () => {
-    alert(0)
-}
 
 
 
