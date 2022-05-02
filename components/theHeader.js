@@ -81,7 +81,7 @@ template.innerHTML = `
                <li class='nav-sm'><a href="#">Latest</a></li>
                <li class='nav-sm'><a href="#">About</a></li>
                <li>
-                 <button class='bg-red-600 px-3 py-1 rounded-md text-white'> <i class="fa-solid fa-magnifying-glass"></i> </button>
+                 <!--<button class='bg-red-600 px-3 py-1 rounded-md text-white'> <i class="fa-solid fa-magnifying-glass"></i> </button>
                </li>
 
            </ul>
