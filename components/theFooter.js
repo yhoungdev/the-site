@@ -36,7 +36,7 @@ template.innerHTML = `
  <div class ='container'>
   <center>
 
-  <ul class='flex gap-10 text-slate-500 my-5 text-center'>
+  <ul class='flex gap-10 text-slate-500 my-5 justify-center'>
   <li>Home</li>
   <li>Home</li>
   <li>Home</li>
@@ -51,23 +51,24 @@ template.innerHTML = `
  <div class='the-footer bg-black mt-3 text-white py-5 ' style='position:absolute; right:0; left:0'>
 
     <div class='container mx-auto py-3'>
-      <ul class='flex justify-between my-3'>
-        <li><i class="fa-brands fa-facebook text-2xl"></i></li>
-        <li><i class="fa-brands fa-linkedin  text-2xl"></i></li>
-        <li><i class="fa-brands fa-twitter  text-2xl"></i></li>
-        <li><i class="fa-brands fa-instagram  text-2xl"></i></li>
-        <li><i class="fa-brands fa-youtube  text-2xl"></i></li>
+      <center>
+      <ul class='flex justify-center gap-10 my-3'>
+      <li><i class="fa-brands fa-facebook text-2xl"></i></li>
 
-      </ul>
+      <li><i class="fa-brands fa-twitter  text-2xl"></i></li>
+      <li><i class="fa-brands fa-instagram  text-2xl"></i></li>
+      <li><i class="fa-brands fa-youtube  text-2xl"></i></li>
+
+    </ul>
+      </center>
 
       <center><small class='text-center'>2022 The Site</small></center>
-      <center>     <ul class='flex gap-5 text-center py-3'>
+      <ul class='flex gap-5  py-3 justify-center'>
       <li>Home |</li>
       <li>Home | </li>
       <li>Home |</li>
       <li>Home</li>
-    </ul></center>
-   
+    </ul>
     </div>
 
  </div>

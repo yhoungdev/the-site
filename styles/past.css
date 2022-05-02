@@ -4,6 +4,8 @@
     background-color: rgb(220, 217, 217);
 }
 
+
+
 .past-btn {
     padding: 1em 4em;
     border-radius: 0.2em;
@@ -85,5 +87,11 @@
     .past-container {
         
         margin: 10em auto;
+    }
+
+    .route-past {
+        
+        margin: 0 3em;
+        padding: 0 3em;
     }
 }
