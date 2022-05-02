@@ -57,7 +57,7 @@ template.innerHTML = `
                <li><a href="/">Home</a></li>
                <li><a href="/pages/news.html">News</a></li>
                <li><a href="../pages/reviews.html">Reviews</a></li>
-               <li><a href="#">Videos</a></li>
+               <li><a href="../pages/past.html">Past Questions</a></li>
                <li class='nav-sm'><a href="#">Latest</a></li>
                <li class='nav-sm'><a href="#">About</a></li>
                <li>
