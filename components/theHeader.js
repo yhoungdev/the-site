@@ -15,7 +15,7 @@ template.innerHTML = `
     </style>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
-    
+
     <head>
     
 
@@ -54,8 +54,7 @@ template.innerHTML = `
             <i class="fa-brands fa-instagram mx-5 icons-sm"></i>
             <i class="fa-brands fa-youtube mx-5 icons-sm"></i>
             <i class="fa-solid fa-arrow-right-to-bracket mx-5"></i>
-            <i class="fa-solid fa-user-plus"></i>
-
+            <a href='../pages/Auth/login.html'><i class="fa-solid fa-user-plus"></i></a>
             </ul>
           
 
@@ -112,6 +111,8 @@ template.innerHTML = `
 
     </div>
     
+
+   
 
 `;
 
