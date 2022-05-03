@@ -54,8 +54,7 @@ template.innerHTML = `
             <i class="fa-brands fa-instagram mx-5 icons-sm"></i>
             <i class="fa-brands fa-youtube mx-5 icons-sm"></i>
             <i class="fa-solid fa-arrow-right-to-bracket mx-5"></i>
-            <i class="fa-solid fa-user-plus"></i>
-
+            <a href='../pages/Auth/login.html'><i class="fa-solid fa-user-plus"></i></a>
             </ul>
           
 
