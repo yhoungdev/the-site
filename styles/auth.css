@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    overflow: hidden;
+}
+
+/* flex the auth page */
+.auth-layout {
+    display: flex;
+    gap: 3em;
+    font-family: poppins;
+}
+
+
+.auth-form {
+    padding: 2em;
+}
+
+/* for small screens  */
+@media screen and (max-width: 760px){
+
+    .auth-img {
+        display: none;
+    }
+
+    .auth-form {
+        padding: 1em;
+    }
+    
+}
+
