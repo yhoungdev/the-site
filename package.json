@@ -14,6 +14,7 @@
     "vite": "^2.9.5"
   },
   "dependencies": {
+    "the-site": "^0.0.0",
     "workbox-cli": "^6.5.3"
   }
 }
