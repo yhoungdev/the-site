@@ -3307,6 +3307,13 @@ terser@^5.0.0:
     source-map "~0.8.0-beta.0"
     source-map-support "~0.5.20"
 
+the-site@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/the-site/-/the-site-0.0.0.tgz#291070b4ad92fafd2b8854a5a90c29ea1d6f47ed"
+  integrity sha512-jq6XmVjnQyi4QPYRwAT/8eKCKSFbS+2YRduaNKrJe1Q+X0Pvo5qmjH6SKASyt5Hprez0sEdVcHG7VGNDlQ4/1A==
+  dependencies:
+    workbox-cli "^6.5.3"
+
 through@^2.3.6:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
